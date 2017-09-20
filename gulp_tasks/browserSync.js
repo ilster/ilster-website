@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 gulp.task('browserSync:server', function() {
 	browserSync({
 		server: paths.build.main,
-		open: false
+		open: local
 	});
 });
 
